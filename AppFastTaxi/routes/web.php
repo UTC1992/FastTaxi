@@ -30,3 +30,5 @@ Route::post('/cooperativa/create', 'CooperativaController@create')->name('cooper
 Route::get('/cooperativa/edit/{id}', 'CooperativaController@edit')->name('cooperativa.edit');
 Route::post('/cooperativa/update/{id}', 'CooperativaController@update')->name('cooperativa.update');
 Route::get('/cooperativa/delete/{id}', 'CooperativaController@delete')->name('cooperativa.delete');
+
+
